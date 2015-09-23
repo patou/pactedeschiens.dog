@@ -1,0 +1,6 @@
+.idea
+target/
+eclipse-launch-profiles
+search-cards.iml
+Thumbs.db
+node_modules
