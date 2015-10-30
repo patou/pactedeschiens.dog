@@ -377,7 +377,7 @@ label{
   width:32%;
 }
 .banner-grid.two {
- background:#2298AB;
+ background:#4EBBC7;
 }
 .banner-grid.three {
     background:#F39201;
@@ -439,8 +439,8 @@ font-size: 3em;
     stroke:#fff;
 }
 #trianglePath6 {
-    fill:#F2F2F2;
-    stroke:#F2F2F2;
+    fill:#89BCC1;
+    stroke:#89BCC1;
 }
 .about.second {
     padding: 4em 0 4em 0;
@@ -448,7 +448,7 @@ font-size: 3em;
 /*--team--*/
 .team{
   padding:10em 0 4em 0;
-  background:#2298AB;
+  background:#4EBBC7;
 }
 .ch-grid {
 	margin: 4em 0;
@@ -619,19 +619,19 @@ font-size: 3em;
 /*--breed-services--*/
 .breed-section {
     padding:10em 0 4em 0;
-	background-color:#2298AB;
+	background-color:#4EBBC7;
 }
 svg:not(:root) {
   overflow: hidden;
     position: absolute;
 }
 #trianglePath1 {
-  fill:#2298AB;
-  stroke:#2298AB;
+  fill:#4EBBC7;
+  stroke:#4EBBC7;
 }
 #trianglePath2 {
-  fill:#43D4CC;
-  stroke:#43D4CC;
+  fill:#2298AB ;
+  stroke:#2298AB;
 }
 .serve-text p {
     color: #555;
@@ -713,7 +713,7 @@ h3.tittle.two {
 /*--blog--*/
 .news {
     padding: 10em 0 4em 0;
-    background-color:#2298AB;
+    background-color:#4EBBC7;
 }
 .news.two {
       padding: 4em 0 4em 0;
@@ -1142,7 +1142,7 @@ p.para1{
 	padding:2em 0;
 }
 .find {
-    background-color: #2298AB;
+    background-color: #4EBBC7;
     padding: 10em 0 4em 0;
 }
 .map{
@@ -1406,7 +1406,7 @@ a:hover.tooltips span {
 	}
 	.team {
 		padding:9em 0 4em 0;
-		background: #2298AB;
+		background: #4EBBC7;
 	}
 	 .about.second {
 		padding: 3em 0 3em 0;
