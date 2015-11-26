@@ -5,152 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="keywords" content="Pacte des chiens, Educateur, canin, Rennes, Chiens, Dog, comportementaliste"/>
-    <script type="application/x-javascript"> addEventListener("load", function () {
-        setTimeout(hideURLbar, 0);
-    }, false);
-    function hideURLbar() {
-        window.scrollTo(0, 1);
-    } </script>
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-    <!-- Custom Theme files -->
     <link href="css/style.css" rel='stylesheet' type='text/css'/>
-    <script src="js/jquery.min.js"></script>
-    <!--web-fonts-->
     <link href='http://fonts.googleapis.com/css?family=Lobster|Raleway:500,400,300' rel='stylesheet' type='text/css'>
-    <!--//we-bfonts-->
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
-    <script src="js/responsiveslides.min.js"></script>
-    <!--/script-->
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
-                event.preventDefault();
-                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 900);
-            });
-            $("span.menu").click(function () {
-                $(".top-menu ul").slideToggle("slow", function () {
-                });
-            });
-            $(function () {
-                // Slideshow 4
-                $("#slider4").responsiveSlides({
-                    auto: true,
-                    pager: true,
-                    nav: false,
-                    speed: 500,
-                    namespace: "callbacks",
-                    before: function () {
-                        $('.events').append("<li>before event fired.</li>");
-                    },
-                    after: function () {
-                        $('.events').append("<li>after event fired.</li>");
-                    }
-                });
 
-            });
-            $().UItoTop({easingType: 'easeOutQuart'});
-        });
-    </script>
 
 </head>
-<body>
+<body ng-app="pactedeschiens">
 <!--start-header-->
-<div id="home" class="header">
-    <div class="top-header">
-        <div class="container">
-            <div class="logo">
-                <a href="index.html"><h1>Pacte <span>des chiens</span></h1></a>
-            </div>
-            <div class="top-menu">
-                <span class="menu"> </span>
-                <ul class="cl-effect-16">
-                    <li><a class="active" href="index.html" data-hover="Home">Accueil</a></li>
-                    <li><a href="about.html" data-hover="About">About</a></li>
-                    <li><a href="typography.html" data-hover="Services">Services</a></li>
-                    <li><a href="gallery.html" data-hover="Gallery">Gallery</a></li>
-                    <li><a href="blog.html" data-hover="blog">Blog</a></li>
-                    <li><a href="contact.html" data-hover="Contact">Contact</a></li>
-                    <div class="clearfix"></div>
-                </ul>
-            </div>
+<header></header>
 
-            <div class="clearfix"></div>
-        </div>
-    </div>
-    <div class="banner">
-        <div class="container">
-            <div id="top" class="callbacks_container">
-                <ul class="rslides callbacks callbacks1" id="slider4">
-                    <li id="callbacks1_s0" class="callbacks1_on"
-                        style="display: block; float: left; position: relative; opacity: 1; z-index: 2; transition: opacity 500ms ease-in-out;">
-                        <div class="banner-info">
-                            <h3>Éducateur canin</h3>
-                            <h4>Un travail efficace et respectueux du chien</h4>
-                        </div>
-                    </li>
-                    <li id="callbacks1_s1" class=""
-                        style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out;">
-                        <div class="banner-info">
-                            <h3>Comportement du chien</h3>
-                            <h4>Des réponses claires, des conseils personnalisés</h4>
-                        </div>
-                    </li>
-                    <li id="callbacks1_s2" class=""
-                        style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out;">
-                        <div class="banner-info">
-                            <h3>Professionnel formé et diplômé</h3>
-                            <h4>Centre de formation international woodenpark</h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <!--banner-Slider-->
-
-        </div>
-        <div class="banner-bottom">
-            <div class="container">
-                <div class="banner-bot-grids">
-                    <div class="col-md-4 banner-grid one">
-                        <div class="icon">
-                            <i class="glyphicon glyphicon-time"> </i>
-                        </div>
-                        <div class="icon-text">
-                            <h4>Déplacement à domicile</h4>
-
-                            <p>Rennes et tout Ille et vilaine (35)</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="col-md-4 banner-grid two">
-                        <div class="icon">
-                            <i class="glyphicon glyphicon-wrench"> </i>
-                        </div>
-                        <div class=" icon-text">
-                            <h4>06 52 33 37 97</h4>
-
-                            <p>N'hésitez pas à me contacter pour tout renseignement</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="col-md-4 banner-grid three">
-                        <div class="icon">
-                            <i class="glyphicon glyphicon-briefcase"> </i>
-                        </div>
-                        <div class="icon-text">
-                            <h4>Séance d’évaluation</h4>
-
-                            <p>GRATUITE et sans engagement</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-
-    </div>
-</div>
 <!--start-about-->
 <div class="about">
     <div class="container">
@@ -180,14 +44,14 @@
     <path id="trianglePath6" d="M50 100 L100 40 L100 0 Z"></path>
 </svg>
 <!--start-news-->
-<div class="news" id="new">
+<div class="news" id="new" ng-controller="BlogHomePageController">
     <div class="container">
         <h3 class="tittle two">Mes dernières news</h3>
 
         <div class="news-article">
 
-            <div class="col-md-6 article-post">
-                <a href="single.html"><img src="images/g1.jpg" alt="img07"/></a>
+            <div class="col-md-6 article-post" ng-repeat="article in articles">
+                <a href="single.html"><img ng-src="{{article.cover}}"/></a>
 
                 <div class="col-md-3 post-meta">
                     <div class="meta-icon">
@@ -196,49 +60,16 @@
                         </div>
                     </div>
                     <ul class="ad-info">
-                        <li>21 Aug'15</li>
-                        <li><a href="#">Author</a></li>
-                        <li><a href="#">24 Comments</a></li>
+                        <li>{{article.date}}</li>
+                        <li><a href="#">{{article.author}}</a></li>
+                        <li><a href="#">{{article.comments}} Comments</a></li>
                     </ul>
                     <div class="clearfix"></div>
                 </div>
                 <div class="col-md-9 post-details">
-                    <a href="single.html"><h3>Lorem Aliquam volutpat</h3></a>
+                    <a href="single.html"><h3>{{article.title}}</h3></a>
 
-                    <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor
-                        eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                        himenaeos. Mauris in erat justo.</p>
-
-                    <div class="read">
-                        <a class="button" href="single.html"><img src="images/read.png" alt=""/></a>
-                    </div>
-
-                </div>
-                <!--post-details-->
-                <div class="clearfix"></div>
-            </div>
-            <div class="col-md-6 article-post">
-                <a href="single.html"><img src="images/g2.jpg" alt="img07"/></a>
-
-                <div class="col-md-3 post-meta">
-                    <div class="meta-icon">
-                        <div class="pic">
-                            <a href="single.html"><i class="glyphicon glyphicon-picture"></i></a>
-                        </div>
-                    </div>
-                    <ul class="ad-info">
-                        <li>21 Aug'15</li>
-                        <li><a href="#">Author</a></li>
-                        <li><a href="#">24 Comments</a></li>
-                    </ul>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="col-md-9 post-details">
-                    <a href="single.html"><h3>Lorem Aliquam volutpat</h3></a>
-
-                    <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor
-                        eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                        himenaeos. Mauris in erat justo.</p>
+                    <p>{{article.intro}}</p>
 
                     <div class="read">
                         <a class="button" href="single.html"><img src="images/read.png" alt=""/></a>
@@ -259,28 +90,56 @@
 </svg>
 <!--//news-->
 <!--footer-->
-<div class="footer text-center">
-    <div class="container">
-        <ul class="social-icons">
-            <li><a class="tooltips" href="#"><img src="images/fb.png" title="facebook"/><span>Follow us for all the latest news</span></a>
-            </li>
-            <li><a class="tooltips" href="#"><img src="images/twt.png" title="twitter"/><span>Follow us for all the latest news</span></a>
-            </li>
-            <li><a class="tooltips" href="#"><img src="images/tube.png" title="tube"/><span>Follow us for all the latest news</span></a>
-            </li>
-            <li><a class="tooltips" href="#"><img src="images/in.png" title="linkedin"/><span>Follow us for all the latest news</span></a>
-            </li>
-            <li class="pin"><a class="tooltips" href="#"><img src="images/pin.png" title="pinterest"/><span>Follow us for all the latest news</span></a>
-            </li>
-            <div class="clearfix"></div>
-        </ul>
-        <div class="copy">
-            <p>&copy; 2015 Petsy. All Rights Reserved Design | by <a href="http://w3layouts.com/">W3layouts</a></p>
-        </div>
-    </div>
-</div>
+<footer></footer>
 
 <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover"
                                                                          style="opacity: 1;"> </span></a>
+
+<script type="application/x-javascript"> addEventListener("load", function () {
+    setTimeout(hideURLbar, 0);
+}, false);
+function hideURLbar() {
+    window.scrollTo(0, 1);
+} </script>
+<script src="js/jquery.min.js"></script>
+<script src="js/move-top.js"></script>
+<script src="js/easing.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controller/blogHomePageController.js"></script>
+<script src="js/directive/header.js"></script>
+<script src="js/directive/footer.js"></script>
+<!--/script-->
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({scrollTop: $(this.hash).offset().top}, 900);
+        });
+        $("span.menu").click(function () {
+            $(".top-menu ul").slideToggle("slow", function () {
+            });
+        });
+        $(function () {
+            // Slideshow 4
+            $("#slider4").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: false,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+
+        });
+        $().UItoTop({easingType: 'easeOutQuart'});
+    });
+</script>
 </body>
 </html>
