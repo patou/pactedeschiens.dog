@@ -1105,6 +1105,15 @@ p.your-para {
   border: 1px solid #DADADA;
   -webkit-appearance: none;
 }
+.contact-grid input[type="email"], .contact-grid textarea {
+  width: 100%;
+  padding:0.8em;
+  margin:0.6em 0;
+  background: #fff;
+  outline: none;
+  border: 1px solid #DADADA;
+  -webkit-appearance: none;
+}
 .contact-grid textarea {
   resize: none;
   min-height:180px;
@@ -1169,6 +1178,24 @@ p.para1{
   -o-transition: 0.5s all;
   -ms-transition: 0.5s all;
 }
+
+.cannotSend input[type="submit"] {
+    font-size: 1em;
+    background:gray;
+    padding: 0.7em 2em;
+    text-align: center;
+    color: black;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
 .send input[type="submit"]:hover {
   background:#2ad2c9;
 }

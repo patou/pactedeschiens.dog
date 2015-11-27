@@ -14,29 +14,25 @@
 <!--start-header-->
 <smallheader></smallheader>
 <!--start-contact-->
-<div class="contact">
+<div class="contact" ng-controller="MessageController">
     <div class="container">
         <h3 class="tittle">Me contacter</h3>
 
         <div class="contact-form">
             <div class="col-md-6 contact-grid">
-                <form>
+                <form name="form" ng-submit="send()">
                     <p class="your-para">Votre nom:</p>
-                    <input type="text" value="" onfocus="this.value='';"
-                           onblur="if (this.value == '') {this.value ='';}">
+                    <input ng-model="firstName" type="text" required/>
                     <p class="your-para">Votre prénom:</p>
-                    <input type="text" value="" onfocus="this.value='';"
-                           onblur="if (this.value == '') {this.value ='';}">
+                    <input ng-model="lastName" type="text"  required/>
                     <p class="your-para">Votre mail:</p>
-                    <input type="text" value="" onfocus="this.value='';"
-                           onblur="if (this.value == '') {this.value ='';}">
+                    <input ng-model="email" type="email"  required/>
 
                     <p class="your-para">Votre message:</p>
-                    <textarea cols="77" rows="6" value=" " onfocus="this.value='';"
-                              onblur="if (this.value == '') {this.value = '';}"></textarea>
+                    <textarea cols="77" rows="6" ng-model="message" required></textarea>
 
-                    <div class="send">
-                        <input type="submit" value="Envoyer">
+                    <div ng-class="{'cannotSend':form.$invalid, 'send':form.$valid}">
+                        <input type="submit" value="Envoyer" ng-disabled="form.$invalid"/>
                     </div>
                 </form>
             </div>
@@ -110,6 +106,7 @@ function hideURLbar() {
 <script src="js/app.js"></script>
 <script src="js/directive/smallheader.js"></script>
 <script src="js/directive/footer.js"></script>
+<script src="js/controller/messageController.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">

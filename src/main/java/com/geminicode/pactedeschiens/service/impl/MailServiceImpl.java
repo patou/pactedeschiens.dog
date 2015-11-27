@@ -24,24 +24,24 @@ public class MailServiceImpl implements MailService {
     public static final String MAIL_FROM = "pactedeschiens-2@appspot.gserviceaccount.com";
 
     @Override
-    public void send(String name, String email, String message) {
+    public void send(String firstname, String lastname, String email, String message) {
 
-        if (Strings.isNullOrEmpty(name) || Strings.isNullOrEmpty(email) || Strings.isNullOrEmpty(message)) {
+        if (Strings.isNullOrEmpty(firstname) || Strings.isNullOrEmpty(lastname) || Strings.isNullOrEmpty(email) || Strings.isNullOrEmpty(message)) {
             LOGGER.log(Level.SEVERE, "One param is null or empty.");
             return;
         }
 
-        LOGGER.log(Level.INFO, name + " " + email + " " + message);
+        LOGGER.log(Level.INFO, firstname + " " + lastname + " " + email + " " + message);
         final Properties props = new Properties();
         final Session session = Session.getDefaultInstance(props, null);
 
         try {
             final Message msg = new MimeMessage(session);
             msg.setHeader("charset", "UTF-8");
-            msg.setFrom(new InternetAddress(MAIL_FROM, name));
-            msg.addRecipient(Message.RecipientType.TO,  new InternetAddress(MAIL, NAME));
+            msg.setFrom(new InternetAddress(MAIL_FROM, firstname + " " + lastname));
+            msg.addRecipient(Message.RecipientType.TO, new InternetAddress(MAIL, NAME));
             msg.setSubject(OBJECT);
-            msg.setText(message +"\n"+ "Message come from : " + email);
+            msg.setText(message + "\n" + "Message come from : " + email);
             Transport.send(msg);
 
         } catch (MessagingException | UnsupportedEncodingException e) {

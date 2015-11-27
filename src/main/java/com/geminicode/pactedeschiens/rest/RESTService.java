@@ -23,6 +23,6 @@ public class RESTService {
     @Path("/message")
     @Consumes(MediaType.APPLICATION_JSON)
     public void sendMessage(Message message) {
-        mailService.send(message.getName(), message.getEmail(), message.getMessage());
+        mailService.send(message.getFirstName(), message.getLastName(), message.getEmail(), message.getMessage());
     }
 }

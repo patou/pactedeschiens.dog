@@ -1,5 +1,5 @@
 package com.geminicode.pactedeschiens.service;
 
 public interface MailService {
-    void send(String name, String email, String message);
+    void send(String firstname, String lastname, String email, String message);
 }
