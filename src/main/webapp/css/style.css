@@ -55,7 +55,7 @@ label{
     font-family: 'Lobster', cursive;
 }
 .logo  a h1:hover{
- color:#2ad2c9;
+ color:#4EBBC7;
  text-decoration:none;
 }
 .logo  a h1 span{
@@ -85,14 +85,14 @@ label{
     font-size: 0.9em;
 }
 .top-menu li a.active{
-  color:#2ad2c9;
+  color:#4EBBC7;
   }
 /* Effect 16: fall down */
 .cl-effect-16 a {
 	text-shadow: 0 0 1px rgba(111,134,134,0.3);
 }
 .cl-effect-16 a::before {
-	 color:#2ad2c9;
+	 color:#4EBBC7;
 	content: attr(data-hover);
 	position: absolute;
 	opacity: 0;
@@ -344,8 +344,8 @@ label{
     border: 2px solid #020202;
 }
 .callbacks_here a:after{
-  background:#2ad2c9;
-  border:2px solid #2ad2c9;
+  background:#4EBBC7;
+  border:2px solid #4EBBC7;
 }
 .banner-info {
   margin-top: 11em;
@@ -359,7 +359,7 @@ label{
 .banner-info h4 {
   font-size: 2em;
   font-weight:400;
-  color: #2ad2c9;
+  color: #4EBBC7;
   margin: 0.3em 0;
 }
 /*--banner-grids--*/
@@ -371,7 +371,7 @@ label{
 .banner-grid.one,.banner-grid.two,.banner-grid.three {
   padding: 3em 2em;
   margin: 0;
-  background: #598449;
+  background: #808080;
   text-align:center;
   margin-right:1%;
   width:32%;
@@ -380,7 +380,7 @@ label{
  background:#4EBBC7;
 }
 .banner-grid.three {
-    background:#F39201;
+    background:#617B46;
 }
 .icon-text h4 {
   font-size: 1.6em;
@@ -415,7 +415,7 @@ label{
 h3.tittle{
 font-size: 3em;
     font-weight: 400;
-    color: #2ad2c9;
+    color: #4EBBC7;
 }
 .about-top {
     margin-top: 1em;
@@ -531,7 +531,7 @@ font-size: 3em;
 .ch-info .ch-info-back {
 	opacity: 0;
 
-	  background:#2ad2c9;
+	  background:#4EBBC7;
 	pointer-events: none;
 
 	-webkit-transform: scale(1.5);
@@ -826,17 +826,17 @@ ul.ad-info li  a{
   border: 1px solid #020202;
 }
 .blog-pagenat ul li a:hover {
-  background:#2ad2c9;
+  background:#4EBBC7;
   color:#fff;
-      border: 1px solid #2ad2c9;
+      border: 1px solid #4EBBC7;
 }
 ul.ad-info.two li a {
-    color: #2ad2c9;
+    color: #4EBBC7;
 
 }
 /*--single--*/
 .leave h4,h4.tz-title-4.tzcolor-blue {
-      color: #2ad2c9;
+      color: #4EBBC7;
     font-size: 2.2em;
     font-weight: 400;
     margin-top: 0.5em;
@@ -888,7 +888,7 @@ span.m_14 {
   font-weight: 400;
   text-transform: capitalize;
       font-size: 0.9em;
-    color: #2ad2c9;
+    color: #4EBBC7;
 }
 .single_grid2 p {
   color: #555;
@@ -928,7 +928,7 @@ ul.list {
   margin-top: 1em;
 }
 h5.m_26 a:hover{
-  background:#2ad2c9;
+  background:#4EBBC7;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
@@ -969,7 +969,7 @@ h5.m_26 a:hover{
   width:16%;
   }
 .leave input[type="submit"]:hover{
-	  background:#2ad2c9;
+	  background:#4EBBC7;
 }
 .leave p{
   width: 80%;
@@ -1197,7 +1197,7 @@ p.para1{
 }
 
 .send input[type="submit"]:hover {
-  background:#2ad2c9;
+  background:#4EBBC7;
 }
 /*--footer--*/
 .footer{
@@ -1235,7 +1235,6 @@ a.tooltips span {
   padding: 0.5em;
   top: -86px;
   padding: 0.5em;
-  -o- border-radius: 6px;
   -moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	    font-size: 0.9em;
@@ -1265,7 +1264,7 @@ a:hover.tooltips span {
   font-size:0.9em;
 }
 .copy p a {
-   color:#2ad2c9;
+   color:#4EBBC7;
 }
 .copy p a:hover{
 	 text-decoration: underline;

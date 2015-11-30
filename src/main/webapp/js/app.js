@@ -1,1 +1,1 @@
-var app = angular.module('pactedeschiens', []);
+var app = angular.module('pactedeschiens', ['ngRoute']);

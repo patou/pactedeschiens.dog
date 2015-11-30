@@ -1,8 +1,14 @@
 [{
+  "id:" : 1,
   "title": "Titre",
   "intro": "Intro",
   "cover": "images/g1.jpg",
   "date": "11/12/12",
   "author": "Johan",
-  "comments": "23"
+  "content": "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.",
+  "comments": [{
+    "nickname" : "Toto",
+    "date" : "11/12/12",
+    "message" : "Very nice!"
+  }]
 }]

@@ -62,7 +62,7 @@
                     <ul class="ad-info">
                         <li>{{article.date}}</li>
                         <li><a href="#">{{article.author}}</a></li>
-                        <li><a href="#">{{article.comments}} Comments</a></li>
+                        <li><a href="#">{{article.comments.length}} Comments</a></li>
                     </ul>
                     <div class="clearfix"></div>
                 </div>
@@ -106,8 +106,9 @@ function hideURLbar() {
 <script src="js/easing.js"></script>
 <script src="js/responsiveslides.min.js"></script>
 <script src="js/angular.min.js"></script>
+<script src="js/angular-route.js"></script>
 <script src="js/app.js"></script>
-<script src="js/controller/blogHomePageController.js"></script>
+<script src="js/route/route.js"></script><script src="js/controller/blogHomePageController.js"></script>
 <script src="js/directive/header.js"></script>
 <script src="js/directive/footer.js"></script>
 <!--/script-->

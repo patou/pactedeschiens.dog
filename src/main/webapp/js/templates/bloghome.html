@@ -1,0 +1,48 @@
+<div class="container">
+    <h3 class="tittle">Blogs</h3>
+
+    <div class="news-article">
+        <div class="col-md-6 article-post" ng-repeat="article in articles">
+            <a href="single.html"><img ng-src="{{article.cover}}"/></a>
+
+            <div class="col-md-3 post-meta">
+                <div class="meta-icon">
+                    <div class="pic">
+                        <a href="single.html"> <i class="glyphicon glyphicon-picture"></i></a>
+                    </div>
+                </div>
+                <ul class="ad-info two">
+                    <li>{{article.date}}</li>
+                    <li><a href="#">{{article.author}}</a></li>
+                    <li><a href="#">{{article.comments.length}} Comments</a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-md-9 post-details">
+                <a href="single.html"><h3>{{article.title}}</h3></a>
+
+                <p>{{article.content}}</p>
+
+                <div class="read">
+                    <a class="button" ng-href="#/blog/{{article.id}}"><img src="images/read.png" alt=""/></a>
+                </div>
+            </div>
+            <!--post-details-->
+            <div class="clearfix"></div>
+        </div>
+
+
+        <div class="clearfix"></div>
+        <!--start-blog-pagenate-->
+        <div class="blog-pagenat">
+            <ul>
+                <li><a class="frist" href="#">Prev</a></li>
+                <li><a href="#">1</a></li>
+                <li><a class="last" href="#">Next</a></li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+        <!--//End-blog-pagenate-->
+
+    </div>
+</div>
