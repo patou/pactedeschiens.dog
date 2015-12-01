@@ -1,7 +1,13 @@
 app.controller('BlogController', function ($scope, $http, $routeParams) {
 
     if ($routeParams.id) {
-        //on charge le contenu de l'article sinon ...
+        $http.get("js/articles.json")
+            .success(function(data){
+                $scope.article = data[0];
+            })
+            .error(function(error){
+                console.error("Error wile fetching json " + error);
+            });
     } else {
         $http.get("js/articles.json")
             .success(function(data){

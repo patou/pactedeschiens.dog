@@ -9,6 +9,7 @@
   "comments": [{
     "nickname" : "Toto",
     "date" : "11/12/12",
+    "userpicture" : "images/t1.jpg",
     "message" : "Very nice!"
   }]
 }]

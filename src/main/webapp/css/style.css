@@ -1219,6 +1219,13 @@ a.tooltips {
   position: relative;
   display: inline;
 }
+
+a.tooltips-footer {
+    position: relative;
+    display: inline;
+    color: white;
+}
+
 ul.social-icons li:nth-child(5){
   margin: 0;
 }
