@@ -1,11 +1,11 @@
-<div id="home" class="header">
+<div id="home" class="header" ng-init="launch()">
     <div class="top-header">
         <div class="container">
             <div class="logo">
                 <a href="index.html"><h1>Pacte <span>des chiens</span></h1></a>
             </div>
             <div class="top-menu">
-                <span class="menu"> </span>
+                <span class="menu" ng-click="toggleMenu()"> </span>
                 <ul class="cl-effect-16">
                     <li><a ng-href="/" data-hover="Home">Accueil</a></li>
                     <li><a ng-href="/presentation" data-hover="About">Présentation</a></li>
@@ -15,7 +15,6 @@
                     <div class="clearfix"></div>
                 </ul>
             </div>
-
             <div class="clearfix"></div>
         </div>
     </div>
