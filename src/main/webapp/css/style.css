@@ -51,7 +51,7 @@ label{
 .logo  a h1{
     font-size: 3.3em;
     font-weight: 400;
-    color: #2ad2c9;
+    color: #4EBBC7;
     font-family: 'Lobster', cursive;
 }
 .logo  a h1:hover{
@@ -638,6 +638,14 @@ svg:not(:root) {
     font-size: 0.9em;
     line-height: 1.9em;
 }
+
+.serve-text ul li {
+    color: #555;
+    font-size: 0.9em;
+    line-height: 1.9em;
+    margin-left: 2em;
+}
+
 .serve-text h4 {
     padding: 0 0 20px 0;
 	    color: #020202;
@@ -1119,7 +1127,7 @@ p.your-para {
   min-height:180px;
 }
 p.sed-para{
-  color: #53d0c6;
+  color: #4EBBC7;
   font-size: 1.5em;
   font-weight: 400;
      font-family: 'Lobster', cursive;
@@ -2154,7 +2162,7 @@ a:hover.tooltips span {
 		margin-top: 0em;
 	}
 	.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
-		border: 1px solid #ddd;
+		border: 1px solid #020202;
 		padding: 0 5px!important;
 	}
 }

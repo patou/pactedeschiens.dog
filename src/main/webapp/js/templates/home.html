@@ -15,7 +15,7 @@
                 <p><b>“LE SECRET DE L'ÉDUCATION RÉSIDE DANS LE RESPECT DE L'ÉLÈVE”.</b> Ralph Walde Emerson</p>
             </div>
             <div class="col-md-5 about-top-left">
-                <img src="images/ab.jpg" class="img-responsive" alt=""/>
+                <img src="images/pourquoi_educateur.jpg" class="img-responsive" alt=""/>
             </div>
             <div class="clearfix"></div>
         </div>
@@ -34,12 +34,12 @@
         <div class="news-article">
 
             <div class="col-md-6 article-post" ng-repeat="article in articles">
-                <a href="single.html"><img ng-src="{{article.cover}}"/></a>
+                <a ng-href="blog/{{article.id}}"><img ng-src="{{article.cover}}"/></a>
 
                 <div class="col-md-3 post-meta">
                     <div class="meta-icon">
                         <div class="pic">
-                            <a href="single.html"><i class="glyphicon glyphicon-picture"></i></a>
+                            <a ng-href="blog/{{article.id}}"><i class="glyphicon glyphicon-picture"></i></a>
                         </div>
                     </div>
                     <ul class="ad-info">
@@ -50,12 +50,12 @@
                     <div class="clearfix"></div>
                 </div>
                 <div class="col-md-9 post-details">
-                    <a href="single.html"><h3>{{article.title}}</h3></a>
+                    <a ng-href="blog/{{article.id}}"><h3>{{article.title}}</h3></a>
 
                     <p>{{article.intro}}</p>
 
                     <div class="read">
-                        <a class="button" href="single.html"><img src="images/read.png" alt=""/></a>
+                        <a class="button" ng-href="blog/{{article.id}}"><img src="images/read.png" alt=""/></a>
                     </div>
 
                 </div>
