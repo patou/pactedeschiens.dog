@@ -1,0 +1,73 @@
+<!--start-about-->
+<div class="about">
+    <div class="container">
+        <h3 class="tittle wel">Pourquoi faire appel à un professionnel?</h3>
+
+        <div class="about-top">
+            <div class="col-md-7 about-top-right">
+                <p>Mon rôle est de vous conseiller et de vous aider à éduquer et comprendre votre chien. En vous apportant les outils nécessaires pour vivre plus sereinement avec votre compagnon.</p>
+                <p>Ainsi mon but est de pallier aux difficultés et inquiétudes que vous pouvez rencontrer avec votre chien. Je propose une séance d’évaluation offerte, me permettant d’établir un <b>programme personnalisé adapté.</b></p>
+                <p>Celui-ci étant basé sur vos rythmes de vie, vos caractères respectifs ainsi que vos disponibilités.</p>
+                <p>Car s’il est une chose de trouver une solution, il m’est primordiale de trouver <b>LA</b> solution qui vous convienne et vous ressemble.</p>
+                <p>Construire une bonne relation et lui apprendre de nouveaux comportements n'ont pas de limite d'âge. Il n’est <b>jamais trop tard !</b></p>
+                <p>Vous serriez bluffé de voir à quel point votre chien peut progresser rapidement ! Quelque soit la difficulté, n'hésitez plus !</p>
+                <br />
+                <p><b>“LE SECRET DE L'ÉDUCATION RÉSIDE DANS LE RESPECT DE L'ÉLÈVE”.</b> Ralph Walde Emerson</p>
+            </div>
+            <div class="col-md-5 about-top-left">
+                <img src="images/ab.jpg" class="img-responsive" alt=""/>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+     viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path id="trianglePath5" d="M0 0 L50 100 L100 0 Z"></path>
+    <path id="trianglePath6" d="M50 100 L100 40 L100 0 Z"></path>
+</svg>
+<!--start-news-->
+<div class="news" id="new">
+    <div class="container">
+        <h3 class="tittle two">Mes dernières news</h3>
+
+        <div class="news-article">
+
+            <div class="col-md-6 article-post" ng-repeat="article in articles">
+                <a href="single.html"><img ng-src="{{article.cover}}"/></a>
+
+                <div class="col-md-3 post-meta">
+                    <div class="meta-icon">
+                        <div class="pic">
+                            <a href="single.html"><i class="glyphicon glyphicon-picture"></i></a>
+                        </div>
+                    </div>
+                    <ul class="ad-info">
+                        <li>{{article.date}}</li>
+                        <li><a href="#">{{article.author}}</a></li>
+                        <li><a href="#">{{article.comments.length}} Comments</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-9 post-details">
+                    <a href="single.html"><h3>{{article.title}}</h3></a>
+
+                    <p>{{article.intro}}</p>
+
+                    <div class="read">
+                        <a class="button" href="single.html"><img src="images/read.png" alt=""/></a>
+                    </div>
+
+                </div>
+                <!--post-details-->
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+     viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path id="trianglePath1" d="M0 0 L50 100 L100 0 Z"></path>
+    <path id="trianglePath2" d="M50 100 L100 40 L100 0 Z"></path>
+</svg>

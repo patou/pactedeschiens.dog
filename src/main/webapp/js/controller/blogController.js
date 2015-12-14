@@ -1,5 +1,5 @@
 app.controller('BlogController', function ($scope, $http, $routeParams) {
-
+    $scope.$parent.homeHeader = false;
     if ($routeParams.id) {
         $http.get("js/articles.json")
             .success(function(data){

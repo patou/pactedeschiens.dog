@@ -1,0 +1,40 @@
+<div class="contact">
+    <div class="container">
+        <h3 class="tittle">Me contacter</h3>
+
+        <div class="contact-form">
+            <div class="col-md-6 contact-grid">
+                <form name="form" ng-submit="send()">
+                    <p class="your-para">Votre nom:</p>
+                    <input ng-model="firstName" type="text" required/>
+                    <p class="your-para">Votre prénom:</p>
+                    <input ng-model="lastName" type="text"  required/>
+                    <p class="your-para">Votre mail:</p>
+                    <input ng-model="email" type="email"  required/>
+
+                    <p class="your-para">Votre message:</p>
+                    <textarea cols="77" rows="6" ng-model="message" required></textarea>
+
+                    <div ng-class="{'cannotSend':form.$invalid, 'send':form.$valid}">
+                        <input type="submit" value="Envoyer" ng-disabled="form.$invalid"/>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 contact-in">
+                <p class="sed-para"> Une question ? Une demande de préstation ? Contactez moi. </p>
+
+                <p class="para1">Hésitez pas à me contacter pour tous autes renseignements, je vous répondrais dans <b>les plus brefs délais.</b> </p>
+                <p class="para1">Je me déplace directement à <b>domicile en Ille et vilaine (35)</b> </p>
+                <p class="para1">Joignable au <b><a href="callto:06 52 33 37 97">06 52 33 37 97</a></b></p>
+                <p class="para1">4 allée des chauffourniers 35131 Chartres de Bretagne</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+</div>
+<svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+     viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path id="trianglePath5" d="M0 0 L50 100 L100 0 Z"></path>
+    <path id="trianglePath6" d="M50 100 L100 40 L100 0 Z"></path>
+</svg>

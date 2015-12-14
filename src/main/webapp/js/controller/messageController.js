@@ -1,5 +1,5 @@
 app.controller('MessageController', function ($scope, $http, $log) {
-
+    $scope.$parent.homeHeader = false;
 
     $scope.send = function() {
       sendMessage();
