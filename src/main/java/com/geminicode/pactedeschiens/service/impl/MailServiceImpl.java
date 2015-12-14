@@ -17,9 +17,8 @@ import java.util.logging.Logger;
 public class MailServiceImpl implements MailService {
 
     private static final Logger LOGGER = Logger.getLogger(MailServiceImpl.class.getName());
-    //TODO externalize this params
-    public static final String MAIL = "angelomiguellima@gmail.com";
-    public static final String NAME = "Angélo LIMA";
+    public static final String MAIL = "pactedeschiens@gmail.com";
+    public static final String NAME = "Johan LAMBON";
     public static final String OBJECT = "Contact";
     public static final String MAIL_FROM = "pactedeschiens-2@appspot.gserviceaccount.com";
 
