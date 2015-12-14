@@ -1,21 +1,21 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Pacte des chiens | Éducateur et comportementaliste sur Rennes et sa périphérie </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="keywords" content="Pacte des chiens, Educateur, canin, Rennes, Chiens, Dog, comportementaliste"/>
-    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-    <link href="css/style.css" rel='stylesheet' type='text/css'/>
-    <link href='http://fonts.googleapis.com/css?family=Lobster|Raleway:500,400,300' rel='stylesheet' type='text/css'>
-    <base href="/">
+  <title>Pacte des chiens | Éducateur et comportementaliste sur Rennes et sa périphérie </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="keywords" content="Pacte des chiens, Educateur, canin, Rennes, Chiens, Dog, comportementaliste"/>
+  <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+  <link href="css/style.css" rel='stylesheet' type='text/css'/>
+  <link href='http://fonts.googleapis.com/css?family=Lobster|Raleway:500,400,300' rel='stylesheet' type='text/css'>
+  <base href="/">
 </head>
 <body ng-app="pactedeschiens">
 <div ng-show="homeHeader">
-    <header></header>
+  <header></header>
 </div>
 <div ng-show="!homeHeader">
-    <smallheader></smallheader>
+  <smallheader></smallheader>
 </div>
 
 <ng-view></ng-view>

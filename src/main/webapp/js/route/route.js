@@ -28,6 +28,10 @@ app.config(function ($routeProvider, $locationProvider) {
             templateUrl: "js/templates/partenaires.html",
             controller: "PartenairesController"
         })
+        .when("/services", {
+            templateUrl: "js/templates/services.html",
+            controller: "ServicesController"
+        })
         .otherwise({redirectTo: '/'});
     $locationProvider.html5Mode(true);
 

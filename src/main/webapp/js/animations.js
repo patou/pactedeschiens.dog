@@ -34,8 +34,4 @@ jQuery(document).ready(function ($) {
     });
     $().UItoTop({easingType: 'easeOutQuart'});
 
-    $("span.menu").on("tap",function(){
-        $(".top-menu ul").slideToggle("slow" , function(){
-        });
-    });
 });
