@@ -6,6 +6,10 @@ app.directive("smallheader", function($timeout){
             $scope.toggleMenu = function() {
                 angular.element(".top-menu ul").slideToggle("slow", function () {
                 });
+                $timeout(function() {
+                    angular.element(".top-menu ul").slideToggle("slow", function () {
+                    });
+                }, 2000);
             }
         }]
     };

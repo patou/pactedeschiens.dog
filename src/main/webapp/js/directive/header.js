@@ -2,10 +2,14 @@ app.directive("header", function(){
     return {
         restrict: 'E',
         templateUrl: 'js/templates/header.html',
-        controller: ['$scope', function($scope) {
+        controller: ['$scope', '$timeout', function($scope, $timeout) {
             $scope.toggleMenu = function() {
                 angular.element(".top-menu ul").slideToggle("slow", function () {
                 });
+                $timeout(function() {
+                    angular.element(".top-menu ul").slideToggle("slow", function () {
+                    });
+                }, 2000);
             };
             $scope.launch = function() {
                 angular.element("#slider4").responsiveSlides({
