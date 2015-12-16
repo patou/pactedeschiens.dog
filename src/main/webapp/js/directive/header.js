@@ -4,10 +4,10 @@ app.directive("header", function(){
         templateUrl: 'js/templates/header.html',
         controller: ['$scope', '$timeout', function($scope, $timeout) {
             $scope.toggleMenu = function() {
-                angular.element(".top-menu ul").slideToggle("slow", function () {
+                angular.element(".top-menu ul").slideToggle("fast", function () {
                 });
                 $timeout(function() {
-                    angular.element(".top-menu ul").slideToggle("slow", function () {
+                    angular.element(".top-menu ul").slideToggle("fast", function () {
                     });
                 }, 2000);
             };
@@ -17,6 +17,7 @@ app.directive("header", function(){
                     pager: true,
                     nav: false,
                     speed: 500,
+                    timeout: 2000,
                     namespace: "callbacks",
                     before: function () {
                         $('.events').append("<li>before event fired.</li>");
