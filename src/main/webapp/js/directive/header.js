@@ -17,7 +17,7 @@ app.directive("header", function(){
                     pager: true,
                     nav: false,
                     speed: 500,
-                    timeout: 2000,
+                    timeout: 5000,
                     namespace: "callbacks",
                     before: function () {
                         $('.events').append("<li>before event fired.</li>");

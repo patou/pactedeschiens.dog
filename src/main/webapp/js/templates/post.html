@@ -20,8 +20,8 @@
             </div>
             <div class="col-md-9 post-details two">
                 <a href="#"><h3>{{article.title}}</h3></a>
-                <p>{{article.intro}}</p>
-                <p>{{article.content}}</p>
+                <p><b><span ng-bind-html="article.intro | trusted"></span></b></p>
+                <p><span ng-bind-html="article.content | trusted"></span></p>
             </div>
             <!--post-details-->
             <div class="clearfix"> </div>
