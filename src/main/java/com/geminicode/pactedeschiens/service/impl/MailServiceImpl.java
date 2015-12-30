@@ -20,7 +20,7 @@ public class MailServiceImpl implements MailService {
     public static final String MAIL = "pactedeschiens@gmail.com";
     public static final String NAME = "Johan LAMBON";
     public static final String OBJECT = "Contact";
-    public static final String MAIL_FROM = "pactedeschiens-2@appspot.gserviceaccount.com";
+    public static final String MAIL_FROM = "pactedeschiens@gmail.com";
 
     @Override
     public void send(String firstname, String lastname, String email, String message) {
