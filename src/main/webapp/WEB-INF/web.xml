@@ -37,6 +37,26 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
 
+    <servlet>
+        <servlet-name>upload</servlet-name>
+        <servlet-class>com.geminicode.pactedeschiens.servlet.UploadServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>upload</servlet-name>
+        <url-pattern>/upload</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>init</servlet-name>
+        <servlet-class>com.geminicode.pactedeschiens.servlet.InitServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>init</servlet-name>
+        <url-pattern>/init</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>jersey-serlvet</servlet-name>
         <url-pattern>/api/*</url-pattern>
@@ -50,4 +70,24 @@
         <servlet-name>index.jsp</servlet-name>
         <url-pattern>/*</url-pattern>
     </servlet-mapping>
+
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>upload</web-resource-name>
+            <url-pattern>/upload</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>admin</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>init</web-resource-name>
+            <url-pattern>/init</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>admin</role-name>
+        </auth-constraint>
+    </security-constraint>
 </web-app>

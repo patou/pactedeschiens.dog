@@ -1,15 +1,15 @@
 app.controller('BlogController', function ($scope, $http, $routeParams) {
     $scope.$parent.homeHeader = false;
     if ($routeParams.id) {
-        $http.get("js/articles.json")
+        $http.get("/api/blog/" + $routeParams.id)
             .success(function(data){
-                $scope.article = data[0];
+                $scope.article = data;
             })
             .error(function(error){
                 console.error("Error wile fetching json " + error);
             });
     } else {
-        $http.get("js/articles.json")
+        $http.get("/api/blog")
             .success(function(data){
                 $scope.articles = data;
             })

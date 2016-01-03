@@ -1,6 +1,6 @@
 app.controller('HomeController', function ($scope, $http) {
     $scope.$parent.homeHeader = true;
-    $http.get("js/articles.json")
+    $http.get("/api/blog")
         .success(function(data){
             $scope.articles = data;
         })
