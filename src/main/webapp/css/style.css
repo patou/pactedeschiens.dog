@@ -1,9 +1,8 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
+p {
+    margin: 0 0 10px !important;
+}
+
 html, body{
  font-family: 'Raleway', sans-serif;
   font-size: 100%;
@@ -42,7 +41,7 @@ label{
 }
 /*--header--*/
 .top-header {
-     padding: 2em 0 0 0;
+     padding: 1.7em 0 0 0;
 }
 .logo {
     float: left;
@@ -74,7 +73,7 @@ label{
 .top-menu li {
 	text-transform:uppercase;
 	display:inline-block;
-	  margin-right: 2em;
+	  margin-right: 1.7em;
 }
 .top-menu li a{
 	color: #FFFFFF;
@@ -82,7 +81,7 @@ label{
     display: block;
     padding: 0;
     font-weight: 500;
-    font-size: 0.9em;
+    font-size: 0.95em;
 }
 .top-menu li a.active{
   color:#4EBBC7;
@@ -150,13 +149,13 @@ label{
 	.top-menu li a {
 	  padding: 0.5em;
 	  font-weight: 400;
-	  font-size:0.9em;
+	  font-size:0.95em;
 	  }
 	.logo {
 		margin-top: 0.7em;
 	}
 	.top-menu ul li a {
-	  font-size: 0.9em;
+	  font-size: 0.95em;
 	}
 }
 /*--slider-css--*/
@@ -357,7 +356,7 @@ label{
   color: #fff;
 }
 .banner-info h4 {
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight:400;
   color: #4EBBC7;
   margin: 0.3em 0;
@@ -369,7 +368,7 @@ label{
     bottom: -19%;
 }
 .banner-grid.one,.banner-grid.two,.banner-grid.three {
-  padding: 3em 2em;
+  padding: 3em 1.7em;
   margin: 0;
   background: #808080;
   text-align:center;
@@ -388,7 +387,7 @@ label{
  font-weight: 400;
 }
 .icon-text p {
-  font-size: 0.9em;
+  font-size: 0.95em;
   color: #fff;
   line-height: 1.7em;
   margin: 0.5em 0;
@@ -410,7 +409,7 @@ label{
     min-height:137px;
 }
 .about {
-    padding:12em 0 4em 0;
+    padding:11.7em 0 4em 0;
 }
 h3.tittle{
 font-size: 3em;
@@ -430,8 +429,8 @@ font-size: 3em;
     padding: 0;
 }
 .about-top-right p {
-    font-size: 0.9em;
-    line-height: 1.9em;
+    font-size: 0.95em;
+    line-height: 1.7em;
     color: #555;
 }
 #trianglePath5 {
@@ -632,18 +631,18 @@ svg:not(:root) {
 #trianglePath2 {
   fill:#2298AB ;
   stroke:#2298AB;
-}
-.serve-text p {
+} p {
+.serve-text
     color: #555;
-    font-size: 0.9em;
-    line-height: 1.9em;
+    font-size: 0.95em;
+    line-height: 1.7em;
 }
 
 .serve-text ul li {
     color: #555;
-    font-size: 0.9em;
-    line-height: 1.9em;
-    margin-left: 2em;
+    font-size: 0.95em;
+    line-height: 1.7em;
+    margin-left: 1.7em;
 }
 
 .serve-text h4 {
@@ -657,12 +656,12 @@ svg:not(:root) {
 .service-grid li{
     display: block;
     margin: 5px 0;
-    font-size: 0.9em;
+    font-size: 0.95em;
     color: #555;
 }
 .service-grid li a i{
-    font-size: 0.9em;
-    margin: 0.2em 0.5em 1em 0em;
+    font-size: 0.95em;
+    margin: 0.1.7em 0.5em 1em 0em;
     color:#020202;
     line-height: 1.8em;
     text-decoration: none;
@@ -675,7 +674,7 @@ h3.tittle.two {
     padding-left: 0;
 }
 .serve-grids {
-    margin-top: 2em;
+    margin-top: 1.7em;
 }
 /*--health--*/
 .health-care {
@@ -689,8 +688,8 @@ h3.tittle.two {
 }
 .health-text p {
     color: #555;
-    font-size:0.9em;
-	line-height:1.9em;
+    font-size:0.95em;
+	line-height:1.7em;
 	margin:0.5em 0;
 }
 .health {
@@ -712,11 +711,11 @@ h3.tittle.two {
   width: 100%;
 }
 .gallery-left{
-  padding:0 0.2em;
+  padding:0 0.1.7em;
   margin-bottom:0.4em;
 }
 .gallery-bottom {
-  margin-top: 2em;
+  margin-top: 1.7em;
 }
 /*--blog--*/
 .news {
@@ -728,11 +727,11 @@ h3.tittle.two {
 	 background:#fff;
 }
 .news-article {
-    margin-top: 2em;
+    margin-top: 1.7em;
 }
 .article-post {
   padding-left: 0;
- margin-bottom: 2em;
+ margin-bottom: 1.7em;
 }
 .post-details h3,.post-details a h3{
    color:#020202;
@@ -743,10 +742,10 @@ h3.tittle.two {
 .post-details p {
   font-weight: 400;
   margin-top: 0.5em;
-  font-size:0.9em;
+  font-size:0.95em;
   color: #555;
   font-weight: 400;
-  line-height:2em;
+  line-height:1.7em;
 }
 a.blog.hvr-shutter-out-horizontal {
   padding: 0.6em 1em;
@@ -773,7 +772,7 @@ a.blog.hvr-shutter-out-horizontal {
   color: #fff;
 }
 .post-meta {
-  font-size: 0.9em;
+  font-size: 0.95em;
   text-align: right;
   line-height: 24px;
   float: left;
@@ -824,7 +823,7 @@ ul.ad-info li  a{
   display: block;
   background:#F7F7F7;
   padding: 8px 1.1em;
-  font-size: 0.9em;
+  font-size: 0.95em;
   text-transform: uppercase;
   color:#020202;
   font-weight: 400;
@@ -845,13 +844,13 @@ ul.ad-info.two li a {
 /*--single--*/
 .leave h4,h4.tz-title-4.tzcolor-blue {
       color: #4EBBC7;
-    font-size: 2.2em;
+    font-size: 2.1.7em;
     font-weight: 400;
     margin-top: 0.5em;
     padding: 0.6em 0 0.1em 0;
 }
 .comment-box {
-  padding: 2em 2em;
+  padding: 1.7em 1.7em;
   border: 1px dashed #E64B50;
   text-align: center;
   margin-top:3em;
@@ -890,18 +889,18 @@ ul.ad-info.two li a {
   background: #fff;
 }
 p.form-submit {
-  margin: 2em 0;
+  margin: 1.7em 0;
 }
 span.m_14 {
   font-weight: 400;
   text-transform: capitalize;
-      font-size: 0.9em;
+      font-size: 0.95em;
     color: #4EBBC7;
 }
 .single_grid2 p {
   color: #555;
-  font-size:0.9em;
-  line-height:1.9em;
+  font-size:0.95em;
+  line-height:1.7em;
   }
 .title a{
   color: #020202;
@@ -913,7 +912,7 @@ span.m_14 {
   list-style: none;
 }
 ul.list {
-  padding-top: 2em;
+  padding-top: 1.7em;
 }
 .preview img {
   border-radius: 50%;
@@ -929,7 +928,7 @@ ul.list {
   color: #fff;
   font-size: 1em;
   font-weight: 400;
-  padding: 0.6em 1.2em;
+  padding: 0.6em 1.1.7em;
   display: inline-block;
   background:#020202;
   margin: 0 auto;
@@ -972,7 +971,7 @@ h5.m_26 a:hover{
   display: inline-block;
   background:#020202;
   margin: 0 auto;
-  margin:1em 0 2em 0;
+  margin:1em 0 1.7em 0;
   -webkit-appearance: none;
   width:16%;
   }
@@ -983,7 +982,7 @@ h5.m_26 a:hover{
   width: 80%;
   line-height: 1.8em;
   color:#020202;
-  font-size: 0.9em;
+  font-size: 0.95em;
 }
 .text-in{
 	padding:0;
@@ -996,7 +995,7 @@ h5.m_26 a:hover{
 	padding:0.5em 0;
 }
 .leave {
-  padding: 2em 0 0em;
+  padding: 1.7em 0 0em;
 }
 .top-comments {
 	padding: 5em 0 0;
@@ -1050,10 +1049,10 @@ h5.m_26 a:hover{
   text-align: left;
 }
 .table h2 {
-  font-size: 2.2em;
+  font-size: 2.1.7em;
 }
 .grid_5 h2 {
-  font-size: 2em;
+  font-size: 1.7em;
   text-align: left;
   margin-bottom: 0;
 }
@@ -1065,7 +1064,7 @@ h5.m_26 a:hover{
 }
 .grid_3 h3 {
   padding-bottom: .5em;
-     font-size:2em;
+     font-size:1.7em;
   color: #FA0000;
 }
 .grid_4 h3 {
@@ -1079,7 +1078,7 @@ h5.m_26 a:hover{
   position: relative;
 }
 .first{
- margin-top:2em;
+ margin-top:1.7em;
 }
 a#profile-tab {
   color: #000;
@@ -1098,11 +1097,11 @@ div#profile p {
   padding: 4em 0;
 }
 .contact-form {
-     margin-top: 2em;
+     margin-top: 1.7em;
 }
 p.your-para {
     color: #888;
-  font-size: 0.9em;
+  font-size: 0.95em;
 }
 .contact-grid input[type="text"], .contact-grid textarea {
   width: 100%;
@@ -1134,8 +1133,8 @@ p.sed-para{
 }
 p.para1{
   color: #555;
-  font-size: 0.9em;
-  line-height: 1.9em;
+  font-size: 0.95em;
+  line-height: 1.7em;
       margin-top: 0.5em;
 }
 .address-more,.address-left{
@@ -1148,7 +1147,7 @@ p.para1{
 .address-more p, .address-left p{
 	  width: 100%;
   color: #555;
-  font-size: 0.9em;
+  font-size: 0.95em;
   line-height: 1.8em;
 }
 .address-left p a {
@@ -1156,14 +1155,14 @@ p.para1{
   font-size: 0.95em;
 }
 .more-address{
-	padding:2em 0;
+	padding:1.7em 0;
 }
 .find {
     background-color: #4EBBC7;
     padding: 10em 0 4em 0;
 }
 .map{
- margin:2em 0 4em 0;
+ margin:1.7em 0 4em 0;
 }
 .map iframe {
   width: 100%;
@@ -1173,7 +1172,7 @@ p.para1{
 .send input[type="submit"] {
   font-size: 1em;
   background:#020202;
-  padding: 0.7em 2em;
+  padding: 0.7em 1.7em;
   text-align: center;
   color: #fff;
   border: none;
@@ -1190,7 +1189,7 @@ p.para1{
 .cannotSend input[type="submit"] {
     font-size: 1em;
     background:gray;
-    padding: 0.7em 2em;
+    padding: 0.7em 1.7em;
     text-align: center;
     color: black;
     border: none;
@@ -1209,12 +1208,12 @@ p.para1{
 }
 /*--footer--*/
 .footer{
-	padding:11em 0 2em 0;
+	padding:11em 0 1.7em 0;
 	text-align:center;
 	    background-color: #020202;
 }
 .copy {
-  margin: 2em;
+  margin: 1.7em;
 }
 ul.social-icons li{
   display:inline-block;
@@ -1252,7 +1251,7 @@ a.tooltips span {
   padding: 0.5em;
   -moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
-	    font-size: 0.9em;
+	    font-size: 0.95em;
  }
 a.tooltips span:after {
   content: '';
@@ -1276,7 +1275,7 @@ a:hover.tooltips span {
 }
 .copy p {
   color: #fff;
-  font-size:0.9em;
+  font-size:0.95em;
 }
 .copy p a {
    color:#4EBBC7;
@@ -1341,7 +1340,7 @@ a:hover.tooltips span {
     font-size: 2.7em;
 	}
 	.banner-grid.one, .banner-grid.two, .banner-grid.three {
-		padding: 3em 2em;
+		padding: 3em 1.7em;
 		margin-right: 1%;
 		width: 30%;
 	}
@@ -1353,7 +1352,7 @@ a:hover.tooltips span {
 		bottom: -27%;
 	}
 	.banner-grid.one, .banner-grid.two, .banner-grid.three {
-		padding: 3em 2em;
+		padding: 3em 1.7em;
 		margin-right: 1%;
 		width: 31%;
 	}
@@ -1374,7 +1373,7 @@ a:hover.tooltips span {
 }
 @media (max-width:1024px){
 	.banner-grid.one, .banner-grid.two, .banner-grid.three {
-		padding: 2em 2em;
+		padding: 1.7em 1.7em;
 		margin-right: 1%;
 		width: 32.3%;
 	}
@@ -1505,18 +1504,18 @@ a:hover.tooltips span {
 		margin:0;
 	}
 	.banner-info {
-    margin-top: 2em;
+    margin-top: 1.7em;
   }
   .about {
     padding: 11em 0 4em 0;
   }
 	.about-top-left {
 		padding: 0;
-		margin-top: 2em;
+		margin-top: 1.7em;
 	}
 	.serve-text {
 		padding: 0;
-		margin-top: 2em;
+		margin-top: 1.7em;
 	}
 	.service-grid {
 		float: left;
@@ -1525,7 +1524,7 @@ a:hover.tooltips span {
 	}
 	.health-img {
 		padding: 0;
-		margin-top: 2em;
+		margin-top: 1.7em;
 	}
 	.health-text {
 		padding: 0;
@@ -1569,7 +1568,7 @@ a:hover.tooltips span {
 		min-height: 87px;
 	}
 	.gallery-left {
-		padding: 0 0.2em;
+		padding: 0 0.1.7em;
 		margin-bottom: 0.4em;
 		float: left;
 		width: 33%;
@@ -1582,7 +1581,7 @@ a:hover.tooltips span {
 	}
 	.article-post {
 		padding-left: 0;
-		margin-bottom: 2em;
+		margin-bottom: 1.7em;
 		width: 50%;
 		float: left;
 	}
@@ -1600,7 +1599,7 @@ a:hover.tooltips span {
     font-size: 1.5em;
 	}
 	.post-meta {
-		font-size: 0.9em;
+		font-size: 0.95em;
 		text-align: right;
 		line-height: 24px;
 		float: left;
@@ -1633,7 +1632,7 @@ a:hover.tooltips span {
 	}
 	.contact-in {
 		padding: 0;
-		margin-top: 2em;
+		margin-top: 1.7em;
 	}
 	.contact-grid {
 		padding-left: 0;
@@ -1643,7 +1642,7 @@ a:hover.tooltips span {
       margin-top: 1em;
    }
    .find {
-		padding: 9em 0 2em 0;
+		padding: 9em 0 1.7em 0;
 	}
 }
 @media (max-width:768px){
@@ -1657,7 +1656,7 @@ a:hover.tooltips span {
 		text-align: center;
 	}
 	.gallery-left {
-		padding: 0 0.2em;
+		padding: 0 0.1.7em;
 		margin-bottom: 0.4em;
 		float: left;
 		width: 33%;
@@ -1670,7 +1669,7 @@ a:hover.tooltips span {
 		margin-top: 0.8em;
     }
 	.blog-pagenat {
-		margin-top:2em;
+		margin-top:1.7em;
 	}
 }
 @media (max-width:640px){
@@ -1689,11 +1688,11 @@ a:hover.tooltips span {
 		margin: 0.5em 0;
 	}
 	.icon i {
-		font-size: 2em;
+		font-size: 1.7em;
 	}
 	.banner-info h4 {
 		font-size: 1.7em;
-		margin: 0.2em 0 0 0;
+		margin: 0.1.7em 0 0 0;
 		padding:0;
 	}
 	.banner-bottom {
@@ -1714,7 +1713,7 @@ a:hover.tooltips span {
 	}
 	.article-post {
 		padding-left: 0;
-		margin-bottom: 2em;
+		margin-bottom: 1.7em;
 		width: 100%;
 		float: left;
 	}
@@ -1749,7 +1748,7 @@ a:hover.tooltips span {
 	}
 	.leave p {
 		width: 100%;
-		font-size: 0.9em;
+		font-size: 0.95em;
 	}
 	.find {
 		padding: 9em 0 0em 0;
@@ -1775,7 +1774,7 @@ a:hover.tooltips span {
 }
 @media (max-width:480px){
 	.contact {
-		padding: 2em 0 1em 0;
+		padding: 1.7em 0 1em 0;
 	}
 	.header.two {
 		background: url(../images/bg2.jpg);
@@ -1787,7 +1786,7 @@ a:hover.tooltips span {
 		min-height:74px;
 	}
 	.news.two {
-		padding: 2em 0 1em 0;
+		padding: 1.7em 0 1em 0;
 	}
 	.blog-pagenat ul li a {
 		padding: 8px 1em;
@@ -1810,18 +1809,18 @@ a:hover.tooltips span {
 		width: 82%;
 	}
 	.leave h4, h4.tz-title-4.tzcolor-blue {
-		font-size: 2.2em;
+		font-size: 2.1.7em;
 		margin-top: 0em;
 		padding: 0em 0 0.1em 0;
 	}
 	.gallery-left {
 		padding: 0 0.1em;
-		margin-bottom: 0.2em;
+		margin-bottom: 0.1.7em;
 		float: left;
 		width: 50%;
 	}
 	.gallery {
-		padding: 2em 0 1em 0;
+		padding: 1.7em 0 1em 0;
 	}
 	.ch-grid {
 		margin: 1em 0 0 0;
@@ -1838,7 +1837,7 @@ a:hover.tooltips span {
     font-size: 3em;
 	}
 	.typography {
-		padding: 2em 0 0em 0;
+		padding: 1.7em 0 0em 0;
 	}
 	.service-grid {
 		float: left;
@@ -1866,7 +1865,7 @@ a:hover.tooltips span {
 		line-height: 1.5em;
 	}
 	.copy {
-		margin: 2em 0;
+		margin: 1.7em 0;
 	}
 	a.tooltips span {
 		width: 137px;
@@ -1913,12 +1912,12 @@ a:hover.tooltips span {
 		left: 31%;
 	}
 	.banner-info h3 {
-		font-size: 2em;
+		font-size: 1.7em;
 		padding:0;
 	}
 	.banner-info h4 {
 		font-size: 1.5em;
-		margin: 0.2em 0 0 0;
+		margin: 0.1.7em 0 0 0;
 		padding: 0;
 	}
 	.top-menu ul {
@@ -1931,11 +1930,11 @@ a:hover.tooltips span {
 		text-align: center;
 	}
 	.icon i {
-		font-size: 2em;
+		font-size: 1.7em;
 		padding-top: 0.3em;
 	}
 	.about.second {
-		padding: 2em 0 1em 0;
+		padding: 1.7em 0 1em 0;
 	}
 	.news {
 		padding: 9em 0 0em 0;
@@ -1969,11 +1968,11 @@ a:hover.tooltips span {
 	}
 	.serve-text h4 {
 		padding: 0 0 5px 0;
-		font-size: 1.2em;
+		font-size: 1.1.7em;
 	}
 	.health-text h4 {
 		padding: 0 0 3px 0;
-		font-size: 1.2em;
+		font-size: 1.1.7em;
 		line-height: 1.5em;
 	}
 	.health-text p {
@@ -1991,7 +1990,7 @@ a:hover.tooltips span {
 		margin: 0.5em 0;
 	}
 	.about-top-right h4 {
-    font-size: 1.2em;
+    font-size: 1.1.7em;
     padding: 0 0 10px 0;
 	}
 	.header {
@@ -2010,7 +2009,7 @@ a:hover.tooltips span {
 	}
 	.banner-info h4 {
 		font-size: 1em;
-		margin: 0.2em 0 0 0;
+		margin: 0.1.7em 0 0 0;
 		padding: 0;
 	}
 	.banner-bottom {
@@ -2037,7 +2036,7 @@ a:hover.tooltips span {
 		font-size: 0.75em;
 	}
 	.post-meta {
-		font-size: 0.9em;
+		font-size: 0.95em;
 		text-align: right;
 		line-height: 20px;
 		float: left;
@@ -2045,7 +2044,7 @@ a:hover.tooltips span {
 	}
 		ul.ad-info li {
 		display: inline-block;
-		font-size: 0.9em;
+		font-size: 0.95em;
 		margin-right: 2px;
 	}
 	.post-details {
@@ -2055,7 +2054,7 @@ a:hover.tooltips span {
 	}
 	.meta-icon {
 		margin: 5px 0 10px 0px;
-		font-size: 1.2em;
+		font-size: 1.1.7em;
 		line-height: 35px;
 		height: 35px;
 		width: 35px;
@@ -2081,7 +2080,7 @@ a:hover.tooltips span {
     font-weight: 400;
     margin-top: 0.5em;
     font-size: 0.85em;
-	line-height:1.9em;
+	line-height:1.7em;
 	}
 	.news {
 		padding: 7em 0 0em 0;
@@ -2130,15 +2129,15 @@ a:hover.tooltips span {
     font-size: 1.4em;
 	}
 	p.sed-para {
-    font-size: 1.2em;
+    font-size: 1.1.7em;
 	}
 	.contact-in {
 		padding: 0;
 		margin-top: 1.5em;
 	}
 	.send input[type="submit"] {
-    font-size: 0.9em;
-    padding: 0.6em 2em;
+    font-size: 0.95em;
+    padding: 0.6em 1.7em;
 	}
 	p.para1 {
     font-size: 0.85em;
@@ -2154,7 +2153,7 @@ a:hover.tooltips span {
 		padding: 7em 0 0em 0;
 	}
 	.about.second {
-    padding: 2em 0 0em 0;
+    padding: 1.7em 0 0em 0;
 	}
 	.blog-pagenat ul li a {
 		padding: 5px 0.5em;
