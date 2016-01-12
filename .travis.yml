@@ -8,4 +8,4 @@ install:
 deploy:
   provider: gae
   project: pactedeschiens-2
-  keyfile: pactedeschiens 2-56c196f1588f.json
+  keyfile: 'pactedeschiens 2-56c196f1588f.json'
