@@ -39,7 +39,7 @@ public class MailServiceImpl implements MailService {
         try {
             final Message msg = new MimeMessage(session);
             msg.setHeader("charset", "UTF-8");
-            msg.setFrom(new InternetAddress(MAIL_FROM, contactMessage.getFirstName() + " " + contactMessage.getLastName()));
+            msg.setFrom(new InternetAddress(contactMessage.getEmail(), contactMessage.getFirstName() + " " + contactMessage.getLastName()));
             msg.addRecipient(Message.RecipientType.TO, new InternetAddress(MAIL, NAME));
             msg.setSubject(OBJECT);
             msg.setText(contactMessage.getMessage() + "\n" + "ContactMessage come from : " + contactMessage.getEmail());
