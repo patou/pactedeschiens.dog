@@ -634,7 +634,7 @@ svg:not(:root) {
 }
 
 .serve-text ul li {
-    color: #555;
+    color: #333;
     font-size: 0.95em;
     line-height: 1.7em;
     margin-left: 1.7em;
