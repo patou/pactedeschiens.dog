@@ -9,7 +9,7 @@ app.controller('MessageController', function ($scope, $http, $log) {
         $http.post('/api/message', {firstName:$scope.firstName, lastName:$scope.lastName, email:$scope.email, message:$scope.message}).
             success(function(data, status, headers, config) {
                 $log.info("Message envoyé");
-                alert("Message envoyé, je vous contacterai rapidement.")
+                alert("Message envoye, je vous contacterai rapidement.")
             }).
             error(function(data, status, headers, config) {
                 $log.info('Message dismissed at: ' + new Date());
