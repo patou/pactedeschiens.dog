@@ -9,4 +9,4 @@ deploy:
   provider: gae
   project: pactedeschiens-2
   keyfile: 'pactedeschiens.json'
-  config: appengine-web.xml
+  config: src/main/webapp/WEB-INF/appengine-web.xml
