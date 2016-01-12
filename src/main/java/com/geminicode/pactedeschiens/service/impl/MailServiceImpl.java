@@ -21,7 +21,7 @@ public class MailServiceImpl implements MailService {
     private static final Logger LOGGER = Logger.getLogger(MailServiceImpl.class.getName());
     public static final String MAIL = "pactedeschiens@gmail.com";
     public static final String NAME = "Johan Lambon";
-    public static final String OBJECT = "Feedback from HearthStone SearchCard";
+    public static final String OBJECT = "Demande de contact";
     public static final String MAIL_FROM = "pactedeschiens-2@appspot.gserviceaccount.com";
 
     @Override
